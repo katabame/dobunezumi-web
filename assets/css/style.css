@@ -1,0 +1,140 @@
+html,
+body,
+.contents,
+.section {
+  width: 100% !important;
+  height: 100vh !important;
+}
+.section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+@font-face {
+  font-family: "dokaben";
+  src: url("/assets/font/NewDokabenFont.otf");
+}
+.dokaben {
+  font-family: "dokaben";
+}
+.back1 {
+  background: url("/assets/img/back01.png") no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
+.back1 h1 {
+  color: #fff;
+  font-size: 2rem;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+.back1 h2 {
+  margin-top: 1rem;
+  font-size: 7rem;
+}
+.back2 {
+  width: 100%;
+  background: url("/assets/img/back02.png") no-repeat center;
+  background-size: cover;
+}
+.back2 h2 {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+.back2 p {
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+.back2 ul {
+  margin-top: 30px;
+}
+.back2 li {
+  color: #fff;
+  width: 100%;
+  margin: 5px auto 0 auto;
+  font-size: 2rem;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+.back3 {
+  background: url("/assets/img/back03.png") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+.back3 h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  margin-bottom: 25px;
+}
+.back3 .profile {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.back3 .Profile-Box {
+  background: #fff;
+  height: 20rem;
+  width: 12rem;
+  margin-left: 20px;
+}
+.back3 .Profile-Box h3 {
+  text-align: center;
+  margin-top: 15px;
+  font-family: "dokaben";
+}
+.back3 .Profile-Box p {
+  text-align: center;
+  margin-top: 10px;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+.back3 .Profile-Box i {
+  margin-top: 40px;
+}
+.back3 .Profile-img {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  margin-top: 20px;
+}
+.back3 .Profile-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
